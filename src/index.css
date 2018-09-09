@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, rgb(64, 64, 248), rgb(80, 1, 80));
+  /* will-change: transform; */
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.card {
+  display: inline-block;
+  float: left;
+  width: 300px;
+}
+
+input[type="search"] {
+  width: 400px;
+  border-radius: 12px;
+}
+
+input[type="search"]:focus {
+  transition: all ease .400ms;
+  box-shadow: 0px 0px 1px 3px skyblue;
+}
